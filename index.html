@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aditya - Developer Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-first">Aditya's Portfolio</div>
+            <div class="nav-second">
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">Contact Me</a> </li>
+                    <li> <a href="">My Projects</a> </li>
+                    <li> <a href="">Services</a> </li>
+                    <li> <a href="">About Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                <p>Hi, My name is <span>Aditya</span> <br>
+                    And I am a <br> <span id="element"></span></p>
+            </div>
+            <div class="right-section">
+                <img src="./developer2.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section"></section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
